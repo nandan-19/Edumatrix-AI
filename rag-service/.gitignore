@@ -1,0 +1,76 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+.venv
+# PyInstaller
+*.spec
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.whl
+
+# pytest
+.cache/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MyPy
+.mypy_cache/
+
+# VSCode
+.vscode/
+
+# IDEs
+.idea/
+
+# Logs and local dumps
+*.log
+*.pot
+*.mo
+*.sqlite3
+*.db
+*.dump
+
+# FastAPI
+instance/
+*.pid
+
+# Gunicorn
+gunicorn.pid
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+
+# RAG - typical for vector stores or index files
+index_store/
+*.faiss
+*.ann
+*.npy
+*.npz
+*.pkl
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
